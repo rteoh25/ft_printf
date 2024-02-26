@@ -6,13 +6,13 @@
 /*   By: rteoh <rteoh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/21 11:17:52 by rteoh             #+#    #+#             */
-/*   Updated: 2024/01/09 12:09:13 by rteoh            ###   ########.fr       */
+/*   Updated: 2024/02/22 16:59:04 by rteoh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_printchar(int c)
+int	ft_printchar(char c)
 {
 	write(1, &c, 1);
 	return (1);

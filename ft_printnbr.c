@@ -6,11 +6,14 @@
 /*   By: rteoh <rteoh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/21 11:16:46 by rteoh             #+#    #+#             */
-/*   Updated: 2024/01/09 12:09:27 by rteoh            ###   ########.fr       */
+/*   Updated: 2024/02/22 17:04:44 by rteoh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+
+//recursively calls the function and divdes by 10
+//prints - sign first, then the next largest power of 10
 
 int	ft_printnbr(long n)
 {

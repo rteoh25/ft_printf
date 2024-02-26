@@ -6,11 +6,16 @@
 /*   By: rteoh <rteoh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/21 11:16:16 by rteoh             #+#    #+#             */
-/*   Updated: 2024/01/30 12:28:34 by rteoh            ###   ########.fr       */
+/*   Updated: 2024/02/22 17:18:06 by rteoh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+
+//long being a datatype of 4 bytes, long long 8 bytes
+//unsigned cause it cant be negative
+//same as the printing hex function divide by 16 and from
+//"0123456789abcdef"
 
 int	ft_putptr(unsigned long long num)
 {
@@ -28,6 +33,8 @@ int	ft_putptr(unsigned long long num)
 	return (print_len);
 }
 
+//just to count ptrlen for the output integer
+
 int	ft_ptrlen(unsigned long long ptr)
 {
 	unsigned long long	num;
@@ -42,6 +49,8 @@ int	ft_ptrlen(unsigned long long ptr)
 	}
 	return (num_len);
 }
+
+//printing the ptr
 
 int	ft_printptr(unsigned long long ptr)
 {

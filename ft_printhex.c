@@ -6,11 +6,16 @@
 /*   By: rteoh <rteoh@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/21 11:13:08 by rteoh             #+#    #+#             */
-/*   Updated: 2024/01/09 12:09:22 by rteoh            ###   ########.fr       */
+/*   Updated: 2024/02/22 16:54:46 by rteoh            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+
+//hex being hexadecimal which is "0123456789abcdef"
+//basically take the number and divide by 16
+//if its  <=9 then print the number
+//if its > 9 make it an alphabet
 
 int	ft_printhex(unsigned int n, const char format)
 {
